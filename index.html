@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Remote Job Listings | Your Logo</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <img src="your-logo.png" alt="Logo" class="logo">
+        <h1>Find Your Next Remote Job</h1>
+    </header>
+
+    <!-- Banner Section -->
+    <section class="banner">
+        <img src="banner-image.jpg" alt="Job Opportunities Banner">
+    </section>
+
+    <!-- Search Form -->
+    <section class="search">
+        <h2>Search Remote Jobs</h2>
+        <form id="job-search-form">
+            <input type="text" id="search-query" placeholder="Enter job title or keywords" />
+            <select id="job-category">
+                <option value="all">All Categories</option>
+                <option value="developer">Developer</option>
+                <option value="marketing">Marketing</option>
+                <option value="design">Design</option>
+            </select>
+            <button type="submit">Search</button>
+        </form>
+    </section>
+
+    <!-- Job Listings Section -->
+    <section id="job-listings" class="job-listings">
+        <!-- Job listings will appear here -->
+    </section>
+
+    <!-- Job Details Modal -->
+    <div id="job-modal" class="modal">
+        <div class="modal-content">
+            <span class="close-btn">&times;</span>
+            <h3 id="job-title">Job Title</h3>
+            <p id="job-description">Job Description</p>
+            <a id="job-apply-link" href="#" target="_blank">Apply Now</a>
+        </div>
+    </div>
+
+    <footer>
+        <p>&copy; 2024 Remote Jobs</p>
+    </footer>
+
+    <script src="app.js"></script>
+</body>
+</html>
