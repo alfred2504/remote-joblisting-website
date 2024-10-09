@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Remote Jobs | Post a Job</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <!-- Header -->
+  <header>
+    <div class="logo">
+      <img src="path-to-your-logo.png" alt="Logo">
+    </div>
+    <nav>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="jobs.html">Jobs</a></li>
+        <li><a href="register.html">Register</a></li>
+        <li><a href="login.html">Login</a></li>
+        <li><a href="post-job.html">Post a Job</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <!-- Job Posting Form -->
+  <section id="post-job">
+    <h2>Post a Job</h2>
+    <form>
+      <label for="job-title">Job Title:</label>
+      <input type="text" id="job-title" name="job-title" placeholder="Enter job title" required>
+      
+      <label for="company-name">Company Name:</label>
+      <input type="text" id="company-name" name="company-name" placeholder="Enter company name" required>
+      
+      <label for="job-description">Job Description:</label>
+      <textarea id="job-description" name="job-description" placeholder="Enter job description" required></textarea>
+      
+      <label for="apply-link">Apply Link:</label>
+      <input type="url" id="apply-link" name="apply-link" placeholder="Enter apply link" required>
+      
+      <button type="submit">Post Job</button>
+    </form>
+  </section>
+
+  <footer>
+    <p>&copy; 2024 Remote Jobs - All rights reserved.</p>
+  </footer>
+</body>
+</html>
