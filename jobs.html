@@ -27,7 +27,14 @@
   <section id="jobs">
     <div class="job-search">
       <h2>Remote Job Listings</h2>
-      <input type="text" id="search" placeholder="Search jobs...">
+      <select id="job-dropdown" onchange="selectJob()">
+        <option value="" disabled selected>Select a job</option>
+        <option value="Frontend Developer">Frontend Developer at Tech Solutions</option>
+        <option value="Backend Engineer">Backend Engineer at Innovate Tech</option>
+        <option value="Data Scientist">Data Scientist at Data Corp</option>
+        <option value="UX/UI Designer">UX/UI Designer at Creative Agency</option>
+        <option value="Project Manager">Project Manager at Business Solutions</option>
+      </select>
       <button onclick="searchJobs()">Search</button>
     </div>
 
@@ -39,5 +46,7 @@
   <footer>
     <p>&copy; 2024 Remote Jobs - All rights reserved.</p>
   </footer>
+
+  <script src="app.js"></script>
 </body>
 </html>
