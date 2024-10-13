@@ -13,7 +13,7 @@ This is a simple, responsive website that allows job seekers to search for remot
 
 ## Demo
 
-Live demo: [Link to hosted website]
+Live demo: [https://alfred2504.github.io/remote-joblisting-website]
 
 ## Features
 
